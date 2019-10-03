@@ -46,7 +46,7 @@ def clean_words(words, verbose=True):
 def sylco(new_words, verbose=False) :
     syllables = []
     for word in new_words:
-        word = word.lower()
+        word = str(word.lower())
         # exception_add are words that need extra syllables
         # exception_del are words that need less syllables
 
@@ -178,7 +178,8 @@ def compile_meter_list(new_words, verbose=True):
     # simplifies and compiles cmu cormpus info into listed list
     iambic = cmudict.dict()                     # connect to cmu corpus, called iambic
     big_list = []                               # list to collect all the different versions of words and their meter
-    for word in new_words:                      # get word from list of clean words
+    for word in new_words:
+        word = str(word)                     # get word from list of clean words
         syl_num = sylco([word])
         word_n_versions_list = []               # list has each word and the different versions
         word_n_versions_list.append(word)       # add word
