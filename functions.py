@@ -8,7 +8,7 @@ from math import ceil
 # from textblob import TextBlob
 # import cPickle
 
-def clean_words(self, words, verbose=True):
+def clean_words(words, verbose=True):
     # returns cleans words so they are usable
     junk = ",.:?!"                              # Punctuation I dont want
     poss_is = "'s"                              # remove possessive since doesnt add syllable and is not in corpus
