@@ -1,8 +1,6 @@
-from functions import PoetryParser
+from functions import *
 import pandas as pd
 import sys
-
-pp = PoetryParser()
 
 author="taylor swift"
 df_ts = pd.read_csv("taylor_swift_lyrics.csv", encoding='latin1')
