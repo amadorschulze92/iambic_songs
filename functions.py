@@ -638,9 +638,9 @@ def create_dataframe(syllable_inflection_columns, word_list_column, sonnet_num_l
 
 	# Turn the matrix into a DataFrame with the column names.
 	sonnet_df = pd.DataFrame(syllable_inflection_columns, columns=column_names)
-	# sonnet_df['word_list'] = word_list_column
-	# sonnet_df['sonnet_num'] = sonnet_num_list
-	# sonnet_df['author'] = author_list
-	# sonnet_df['polarity'] = polarity_list
-	# sonnet_df['subjectivity'] = subjectivity_list
+	sonnet_df['word_list'] = word_list_column
+	sonnet_df['sonnet_num'] = sonnet_num_list
+	sonnet_df['author'] = author_list
+	sonnet_df['polarity'] = polarity_list
+	sonnet_df['subjectivity'] = subjectivity_list
 	return sonnet_df
