@@ -464,12 +464,12 @@ def text_line_parser(noise_list):
 
                 matched_length = len([x for x, o, in zip(omc, optimal[0:len(omc)]) if x in [o, 2]])
 
-                if not (matched_length >= len(opt_meter_compress)-error):
+                if not (matched_length >= len(omc)-error):
                         continue
                 else:
                     print('actually optimal:', sind)
                     text_list.append(cutoff_sentence)
-                    meter_list.append(opt_meter_compress)
+                    meter_list.append(omc)
     return text_list, meter_list
 
 # saving:
