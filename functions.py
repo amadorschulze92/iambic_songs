@@ -625,16 +625,16 @@ def text_to_df(text_list, meter_list, author):
     print("FINISHED !!!")
     return syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list
 
-    def create_dataframe(syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list):
-        # Set up column names.
-        column_names = ['sonnet_index','syllables','s1','s2','s3','s4','s5',
-                        's6','s7','s8','s9','s10','s11','s12']
+def create_dataframe(syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list):
+	# Set up column names.
+	column_names = ['sonnet_index','syllables','s1','s2','s3','s4','s5',
+					's6','s7','s8','s9','s10','s11','s12']
 
-        # Turn the matrix into a DataFrame with the column names.
-        sonnet_df = pd.DataFrame(syllable_inflection_columns, columns=column_names)
-        sonnet_df['word_list'] = word_list_column
-        sonnet_df['sonnet_num'] = sonnet_num_list
-        sonnet_df['author'] = author_list
-        sonnet_df['polarity'] = polarity_list
-        sonnet_df['subjectivity'] = subjectivity_list
-        return sonnet_df
+	# Turn the matrix into a DataFrame with the column names.
+	sonnet_df = pd.DataFrame(syllable_inflection_columns, columns=column_names)
+	sonnet_df['word_list'] = word_list_column
+	sonnet_df['sonnet_num'] = sonnet_num_list
+	sonnet_df['author'] = author_list
+	sonnet_df['polarity'] = polarity_list
+	sonnet_df['subjectivity'] = subjectivity_list
+	return sonnet_df
