@@ -472,7 +472,7 @@ def text_line_parser(noise_list):
                 if not (matched_length >= len(omc)-error):
                         continue
                 else:
-                    print('actually optimal:', sind)
+                    # print('actually optimal:', sind)
                     text_list.append(cutoff_sentence)
                     meter_list.append(omc)
     # print(len(text_list), len(meter_list))
