@@ -435,213 +435,213 @@ class PoetryParser(object):
 	    print("FINISHED !!!")
 	    return syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list
 
-def text_line_parser(self, noise_list):
-    text_list = []
-    meter_list = []
+	def text_line_parser(self, noise_list):
+	    text_list = []
+	    meter_list = []
 
-    for sind, sentence in enumerate(noise_list):
-        sentence = sentence.split()
-        cleaned_words = clean_words(sentence)
-    #     print cleaned_words
-        line_syllables = sylco(cleaned_words)
+	    for sind, sentence in enumerate(noise_list):
+	        sentence = sentence.split()
+	        cleaned_words = clean_words(sentence)
+	    #     print cleaned_words
+	        line_syllables = sylco(cleaned_words)
 
-        line_cutoff = 0
-        cutoff_sentence = []
-        for ind, ls in enumerate(line_syllables):
-            line_cutoff += ls
-            if (line_cutoff >= 9) and (line_cutoff <= 12):
-                cutoff_sentence = cleaned_words[0:ind]
-            elif line_cutoff > 12:
-                break
+	        line_cutoff = 0
+	        cutoff_sentence = []
+	        for ind, ls in enumerate(line_syllables):
+	            line_cutoff += ls
+	            if (line_cutoff >= 9) and (line_cutoff <= 12):
+	                cutoff_sentence = cleaned_words[0:ind]
+	            elif line_cutoff > 12:
+	                break
 
-        if len(cutoff_sentence) == 0:
-            continue
-        else:
-            #valid_sentences.append(cutoff_sentence)
-            print('viable sentence index:', sind)
+	        if len(cutoff_sentence) == 0:
+	            continue
+	        else:
+	            #valid_sentences.append(cutoff_sentence)
+	            print('viable sentence index:', sind)
 
-            #print line_syllables
-            word_listed_list = compile_meter_list(cutoff_sentence)
+	            #print line_syllables
+	            word_listed_list = compile_meter_list(cutoff_sentence)
 
-            error = 3
-            bad_optimal = [[1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0,0,0,0,0]]
+	            error = 3
+	            bad_optimal = [[1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0,0,0,0,0]]
 
-            for optimal in bad_optimal:
-                optimal_line, optimal_meter = find_best(word_listed_list, line_syllables, optimal=optimal, verbose=False)
-                omc = [item for sublist in optimal_meter for item in sublist]
+	            for optimal in bad_optimal:
+	                optimal_line, optimal_meter = find_best(word_listed_list, line_syllables, optimal=optimal, verbose=False)
+	                omc = [item for sublist in optimal_meter for item in sublist]
 
-                matched_length = len([x for x, o, in zip(omc, optimal[0:len(omc)]) if x in [o, 2]])
+	                matched_length = len([x for x, o, in zip(omc, optimal[0:len(omc)]) if x in [o, 2]])
 
-                if not (matched_length >= len(opt_meter_compress)-error):
-                        continue
-                else:
-                    print('actually optimal:', sind)
-                    text_list.append(cutoff_sentence)
-                    meter_list.append(opt_meter_compress)
-    return text_list, meter_list
+	                if not (matched_length >= len(opt_meter_compress)-error):
+	                        continue
+	                else:
+	                    print('actually optimal:', sind)
+	                    text_list.append(cutoff_sentence)
+	                    meter_list.append(opt_meter_compress)
+	    return text_list, meter_list
 
-# saving:
-# filepath = open('filename.p', 'w')
-# cPickle.dump(current_text_lines, filepath)
-# filepath.close()
-#
-# loading:
-# filepath = open('filename.p', 'r')
-# loaded_text_lines = cPickle.load(filepath)
-# filepath.close()
+	# saving:
+	# filepath = open('filename.p', 'w')
+	# cPickle.dump(current_text_lines, filepath)
+	# filepath.close()
+	#
+	# loading:
+	# filepath = open('filename.p', 'r')
+	# loaded_text_lines = cPickle.load(filepath)
+	# filepath.close()
 
 
-# running a script:
-# first, add the function to the class
-# change the functions it needs to self.whatever()
-# at the bottom of the script your class is in:
-#
+	# running a script:
+	# first, add the function to the class
+	# change the functions it needs to self.whatever()
+	# at the bottom of the script your class is in:
+	#
 
-# this goes at the very bottom at the script:
-# if __name__ == '__main__':
+	# this goes at the very bottom at the script:
+	# if __name__ == '__main__':
 
-#     austen_text_file = 'some_file_path'
-#     pp = PoetryParser()
+	#     austen_text_file = 'some_file_path'
+	#     pp = PoetryParser()
 
-#     austen_text = pp.parse_austen_text()
+	#     austen_text = pp.parse_austen_text()
 
-#     pickle_filepath = 'pickle_filepath.p'
+	#     pickle_filepath = 'pickle_filepath.p'
 
-#     # your new function which is part of PoetryParser now:
-#     pp.get_invalid_lines(austen_text_file, pickle_filepath)
+	#     # your new function which is part of PoetryParser now:
+	#     pp.get_invalid_lines(austen_text_file, pickle_filepath)
 
-# now, to run the script:
-# > python poetry_parser.py
+	# now, to run the script:
+	# > python poetry_parser.py
 
-def text_to_df(self, text_list, meter_list, author):
-    syllable_inflection_columns = []
-    word_list_column = []
-    sonnet_num_list = []
-    author_list = []
-    polarity_list = []
-    subjectivity_list = []
+	def text_to_df(self, text_list, meter_list, author):
+	    syllable_inflection_columns = []
+	    word_list_column = []
+	    sonnet_num_list = []
+	    author_list = []
+	    polarity_list = []
+	    subjectivity_list = []
 
-    # Track how many completed and skipped lines. Ideally the only skipped
-    # lines are at the beginning and end, but skips regardless.
-    completed_lines = 0
-    skipped_lines = 0
+	    # Track how many completed and skipped lines. Ideally the only skipped
+	    # lines are at the beginning and end, but skips regardless.
+	    completed_lines = 0
+	    skipped_lines = 0
 
-    for line_index, (t, m) in enumerate(zip(text_list, meter_list)):
-        print(t, m)
-        # Set up the current row for the DataFrame, which is an internal list
-        # for the list of lists.
-        syllable_inflection_row = []
+	    for line_index, (t, m) in enumerate(zip(text_list, meter_list)):
+	        print(t, m)
+	        # Set up the current row for the DataFrame, which is an internal list
+	        # for the list of lists.
+	        syllable_inflection_row = []
 
-        # Append the index of the line in the original sonnet_lines list.
-        # This will be column 1 of the DataFrame.
-        syllable_inflection_row.append(line_index)
+	        # Append the index of the line in the original sonnet_lines list.
+	        # This will be column 1 of the DataFrame.
+	        syllable_inflection_row.append(line_index)
 
-        print('counting syllables')
-        line_syllables = sylco(t, verbose=False)
-        sum_line_syllables = sum(line_syllables)
+	        print('counting syllables')
+	        line_syllables = sylco(t, verbose=False)
+	        sum_line_syllables = sum(line_syllables)
 
-        # Append the syllable count. Column 2 of the DataFrame.
-        syllable_inflection_row.append(sum_line_syllables)
+	        # Append the syllable count. Column 2 of the DataFrame.
+	        syllable_inflection_row.append(sum_line_syllables)
 
-        # Append sentiment
-        feels = get_sentiment(t)
+	        # Append sentiment
+	        feels = get_sentiment(t)
 
-        if len(meter_list) < 12:
-            missing_inflections = [-1 for i in range(12-len(m))]
-            optimal_meter_compress = m + missing_inflections
+	        if len(meter_list) < 12:
+	            missing_inflections = [-1 for i in range(12-len(m))]
+	            optimal_meter_compress = m + missing_inflections
 
-        for inflection in m:
-            # Append string indicators for inflections, for dummy coding in your
-            # model later.
-            if inflection == 1:
-                syllable_inflection_row.append('stress')
-            elif inflection == 0:
-                syllable_inflection_row.append('unstress')
-            elif inflection == -1:
-                syllable_inflection_row.append('missing')
-            elif inflection == 2:
-                if syllable_inflection_row[-1] == 1:
-                    syllable_inflection_row.append('unstress')
-                elif syllable_inflection_row[-1] == 0:
-                    syllable_inflection_row.append('stress')
-                else:
-                    syllable_inflection_row.append('unstress')
+	        for inflection in m:
+	            # Append string indicators for inflections, for dummy coding in your
+	            # model later.
+	            if inflection == 1:
+	                syllable_inflection_row.append('stress')
+	            elif inflection == 0:
+	                syllable_inflection_row.append('unstress')
+	            elif inflection == -1:
+	                syllable_inflection_row.append('missing')
+	            elif inflection == 2:
+	                if syllable_inflection_row[-1] == 1:
+	                    syllable_inflection_row.append('unstress')
+	                elif syllable_inflection_row[-1] == 0:
+	                    syllable_inflection_row.append('stress')
+	                else:
+	                    syllable_inflection_row.append('unstress')
 
-                # Check to make sure the row is actually 14 columns long,
-                # or the DataFrame creation at the end will break.
-        if len(syllable_inflection_row) == 13:
-            print('Missing columns in row!!', len(syllable_inflection_row))
-            syllable_inflection_row.append('missing')
-            print("Fixed it!!", len(syllable_inflection_row))
-            # adds the syllable row
-            syllable_inflection_columns.append(syllable_inflection_row)
-            # adds list of words for that row
-            word_list_column.append(t)
-            # adds which sonnet it is
-            sonnet_num_list.append(line_index)
-            # adds author
-            author_list.append(author)
-            # adds sentiment
-            polarity_list.append(feels.polarity)
-            subjectivity_list.append(feels.subjectivity)
-        elif len(syllable_inflection_row) < 14:
-            print('Missing columns in row !!', len(syllable_inflection_row))
-            print('LEAVING THIS LINE OUT!!')
-            skipped_lines += 1
-        elif len(syllable_inflection_row) == 15:
-            if syllable_inflection_row[-1] == "missing":
-                del syllable_inflection_row[-1]
-                print("Fixed it !!", len(syllable_inflection_row))
-                # adds the syllable row
-                syllable_inflection_columns.append(syllable_inflection_row)
-                # adds list of words for that row
-                word_list_column.append(t)
-                # adds which sonnet it is
-                sonnet_num_list.append(line_index)
-                # adds author
-                author_list.append(author)
-                # adds sentiment
-                polarity_list.append(feels.polarity)
-                subjectivity_list.append(feels.subjectivity)
-        elif len(syllable_inflection_row) > 14:
-            print('Too many columns in row !!', len(syllable_inflection_row))
-            print('LEAVING THIS LINE OUT!!')
-            skipped_lines += 1
-        else:
-            # adds the syllable row
-            syllable_inflection_columns.append(syllable_inflection_row)
-            # adds list of words for that row
-            word_list_column.append(t)
-            # adds which sonnet it is
-            sonnet_num_list.append(line_index)
-            # adds author
-            author_list.append(author)
-            # adds sentiment
-            polarity_list.append(feels.polarity)
-            subjectivity_list.append(feels.subjectivity)
+	                # Check to make sure the row is actually 14 columns long,
+	                # or the DataFrame creation at the end will break.
+	        if len(syllable_inflection_row) == 13:
+	            print('Missing columns in row!!', len(syllable_inflection_row))
+	            syllable_inflection_row.append('missing')
+	            print("Fixed it!!", len(syllable_inflection_row))
+	            # adds the syllable row
+	            syllable_inflection_columns.append(syllable_inflection_row)
+	            # adds list of words for that row
+	            word_list_column.append(t)
+	            # adds which sonnet it is
+	            sonnet_num_list.append(line_index)
+	            # adds author
+	            author_list.append(author)
+	            # adds sentiment
+	            polarity_list.append(feels.polarity)
+	            subjectivity_list.append(feels.subjectivity)
+	        elif len(syllable_inflection_row) < 14:
+	            print('Missing columns in row !!', len(syllable_inflection_row))
+	            print('LEAVING THIS LINE OUT!!')
+	            skipped_lines += 1
+	        elif len(syllable_inflection_row) == 15:
+	            if syllable_inflection_row[-1] == "missing":
+	                del syllable_inflection_row[-1]
+	                print("Fixed it !!", len(syllable_inflection_row))
+	                # adds the syllable row
+	                syllable_inflection_columns.append(syllable_inflection_row)
+	                # adds list of words for that row
+	                word_list_column.append(t)
+	                # adds which sonnet it is
+	                sonnet_num_list.append(line_index)
+	                # adds author
+	                author_list.append(author)
+	                # adds sentiment
+	                polarity_list.append(feels.polarity)
+	                subjectivity_list.append(feels.subjectivity)
+	        elif len(syllable_inflection_row) > 14:
+	            print('Too many columns in row !!', len(syllable_inflection_row))
+	            print('LEAVING THIS LINE OUT!!')
+	            skipped_lines += 1
+	        else:
+	            # adds the syllable row
+	            syllable_inflection_columns.append(syllable_inflection_row)
+	            # adds list of words for that row
+	            word_list_column.append(t)
+	            # adds which sonnet it is
+	            sonnet_num_list.append(line_index)
+	            # adds author
+	            author_list.append(author)
+	            # adds sentiment
+	            polarity_list.append(feels.polarity)
+	            subjectivity_list.append(feels.subjectivity)
 
-        print('sonnet number', line_index)
-        completed_lines += 1
+	        print('sonnet number', line_index)
+	        completed_lines += 1
 
-    print('completed_lines:', completed_lines, 'skipped lines:', skipped_lines)
+	    print('completed_lines:', completed_lines, 'skipped lines:', skipped_lines)
 
-    # Turn the list of lists into a numpy array. This creates a matrix
-    # of dimensions (num_sonnet_lines x 14).
-    syllable_inflection_columns = np.array(syllable_inflection_columns)
+	    # Turn the list of lists into a numpy array. This creates a matrix
+	    # of dimensions (num_sonnet_lines x 14).
+	    syllable_inflection_columns = np.array(syllable_inflection_columns)
 
-    print("FINISHED !!!")
-    return syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list
+	    print("FINISHED !!!")
+	    return syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list
 
-    def create_dataframe(self, syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list):
-        # Set up column names.
-        column_names = ['sonnet_index','syllables','s1','s2','s3','s4','s5',
-                        's6','s7','s8','s9','s10','s11','s12']
+	    def create_dataframe(self, syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list):
+	        # Set up column names.
+	        column_names = ['sonnet_index','syllables','s1','s2','s3','s4','s5',
+	                        's6','s7','s8','s9','s10','s11','s12']
 
-        # Turn the matrix into a DataFrame with the column names.
-        sonnet_df = pd.DataFrame(syllable_inflection_columns, columns=column_names)
-        sonnet_df['word_list'] = word_list_column
-        sonnet_df['sonnet_num'] = sonnet_num_list
-        sonnet_df['author'] = author_list
-        sonnet_df['polarity'] = polarity_list
-        sonnet_df['subjectivity'] = subjectivity_list
-        return sonnet_df
+	        # Turn the matrix into a DataFrame with the column names.
+	        sonnet_df = pd.DataFrame(syllable_inflection_columns, columns=column_names)
+	        sonnet_df['word_list'] = word_list_column
+	        sonnet_df['sonnet_num'] = sonnet_num_list
+	        sonnet_df['author'] = author_list
+	        sonnet_df['polarity'] = polarity_list
+	        sonnet_df['subjectivity'] = subjectivity_list
+	        return sonnet_df
