@@ -8,6 +8,36 @@ from math import ceil
 # from textblob import TextBlob
 # import cPickle
 
+def clean_words(self, words, verbose=True):
+    # returns cleans words so they are usable
+    junk = ",.:?!"                              # Punctuation I dont want
+    poss_is = "'s"                              # remove possessive since doesnt add syllable and is not in corpus
+    poss_are = "'re"
+    new_words = []                             # list to collect all the cleaned words
+    for word in words:
+        word = str(word)
+        word = word.decode('utf-8').encode('ascii', 'ignore').strip()
+        if poss_is in word and poss_is == word[-2:]:
+            word = word.replace(poss_is,'')     # removed poss_is
+        elif poss_are in word and poss_are == word[-3:]:
+            word = word.replace(poss_are, '')   # remove poss_are
+        elif word[-2:] == "'d":
+            word = word.replace("'d","")
+        else:
+            word = word.replace("'","")
+        if '...' in word:
+            word = word.replace('...','')
+        for j in junk:
+            word = word.replace(j,'')           # remove junk
+        if '--' in word:
+            word = word.replace('-','')
+        elif '-' in word:                         # splits hyphenated words
+            hyph = word.split('-')
+            new_words.append(hyph[0].decode('utf-8').encode('ascii', 'ignore').strip())
+            new_words.append(hyph[1].decode('utf-8').encode('ascii', 'ignore').strip())
+        else:
+            new_words.append(word)              # put cleaned word in new_words
+    return new_words
 class PoetryParser(object):
 
 
@@ -16,36 +46,7 @@ class PoetryParser(object):
 	# 	self.parser_name = parser_names
 
 
-	def clean_words(self, words, verbose=True):
-	    # returns cleans words so they are usable
-	    junk = ",.:?!"                              # Punctuation I dont want
-	    poss_is = "'s"                              # remove possessive since doesnt add syllable and is not in corpus
-	    poss_are = "'re"
-	    new_words = []                             # list to collect all the cleaned words
-	    for word in words:
-	        word = str(word)
-	        word = word.decode('utf-8').encode('ascii', 'ignore').strip()
-	        if poss_is in word and poss_is == word[-2:]:
-	            word = word.replace(poss_is,'')     # removed poss_is
-	        elif poss_are in word and poss_are == word[-3:]:
-	            word = word.replace(poss_are, '')   # remove poss_are
-	        elif word[-2:] == "'d":
-	            word = word.replace("'d","")
-	        else:
-	            word = word.replace("'","")
-	        if '...' in word:
-	            word = word.replace('...','')
-	        for j in junk:
-	            word = word.replace(j,'')           # remove junk
-	        if '--' in word:
-	            word = word.replace('-','')
-	        elif '-' in word:                         # splits hyphenated words
-	            hyph = word.split('-')
-	            new_words.append(hyph[0].decode('utf-8').encode('ascii', 'ignore').strip())
-	            new_words.append(hyph[1].decode('utf-8').encode('ascii', 'ignore').strip())
-	        else:
-	            new_words.append(word)              # put cleaned word in new_words
-	    return new_words
+
 
 	# This function was taken from 'http://eayd.in/?p=232' and modified, I found, with the modifications, it to be more
 	# effective for known modern words than the function I originally created. But this function worked less well against
