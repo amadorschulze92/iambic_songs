@@ -33,8 +33,8 @@ def clean_words(words, verbose=True):
             word = word.replace('-','')
         elif '-' in word:                         # splits hyphenated words
             hyph = word.split('-')
-            new_words.append(hyph[0].decode('utf-8').encode('ascii', 'ignore').strip())
-            new_words.append(hyph[1].decode('utf-8').encode('ascii', 'ignore').strip())
+            new_words.append(hyph[0].encode('ascii', 'ignore').strip())
+            new_words.append(hyph[1].encode('ascii', 'ignore').strip())
         else:
             new_words.append(word)              # put cleaned word in new_words
     return new_words
