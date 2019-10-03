@@ -625,7 +625,7 @@ def text_to_df(text_list, meter_list, author):
     print("FINISHED !!!")
     return syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list
 
-    def create_dataframe(self, syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list):
+    def create_dataframe(syllable_inflection_columns, word_list_column, sonnet_num_list, author_list, polarity_list, subjectivity_list):
         # Set up column names.
         column_names = ['sonnet_index','syllables','s1','s2','s3','s4','s5',
                         's6','s7','s8','s9','s10','s11','s12']
