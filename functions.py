@@ -16,7 +16,7 @@ def clean_words(words, verbose=True):
     new_words = []                             # list to collect all the cleaned words
     for word in words:
         word = str(word)
-        word = str(word.encode('ascii', 'ignore').strip())
+        word = str(word.strip())
         if poss_is in word and poss_is == word[-2:]:
             word = word.replace(poss_is,'')     # removed poss_is
         elif poss_are in word and poss_are == word[-3:]:
@@ -33,10 +33,13 @@ def clean_words(words, verbose=True):
             word = word.replace('-','')
         elif '-' in word:                         # splits hyphenated words
             hyph = word.split('-')
-            new_words.append(hyph[0].encode('ascii', 'ignore').strip())
-            new_words.append(hyph[1].encode('ascii', 'ignore').strip())
+            new_words.append(hyph[0].strip())
+            new_words.append(hyph[1].strip())
+            # new_words.append(hyph[0].encode('ascii', 'ignore').strip())
+            # new_words.append(hyph[1].encode('ascii', 'ignore').strip())
         else:
             new_words.append(word)              # put cleaned word in new_words
+    print(new_words)
     return new_words
 	# This function was taken from 'http://eayd.in/?p=232' and modified, I found, with the modifications, it to be more
 	# effective for known modern words than the function I originally created. But this function worked less well against
@@ -435,7 +438,8 @@ def text_line_parser(noise_list):
     for sind, sentence in enumerate(noise_list):
         sentence = sentence.split()
         cleaned_words = clean_words(sentence)
-    #     print cleaned_words
+ 
+        # print(cleaned_words)
         line_syllables = sylco(cleaned_words)
 
         line_cutoff = 0
@@ -455,6 +459,7 @@ def text_line_parser(noise_list):
 
             #print line_syllables
             word_listed_list = compile_meter_list(cutoff_sentence)
+            print(word_listed_list)
 
             error = 3
             bad_optimal = [[1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0,0,0,0,0]]
@@ -471,6 +476,7 @@ def text_line_parser(noise_list):
                     print('actually optimal:', sind)
                     text_list.append(cutoff_sentence)
                     meter_list.append(omc)
+    print(len(text_list), len(meter_list))
     return text_list, meter_list
 
 # saving:
@@ -632,9 +638,9 @@ def create_dataframe(syllable_inflection_columns, word_list_column, sonnet_num_l
 
 	# Turn the matrix into a DataFrame with the column names.
 	sonnet_df = pd.DataFrame(syllable_inflection_columns, columns=column_names)
-	sonnet_df['word_list'] = word_list_column
-	sonnet_df['sonnet_num'] = sonnet_num_list
-	sonnet_df['author'] = author_list
-	sonnet_df['polarity'] = polarity_list
-	sonnet_df['subjectivity'] = subjectivity_list
+	# sonnet_df['word_list'] = word_list_column
+	# sonnet_df['sonnet_num'] = sonnet_num_list
+	# sonnet_df['author'] = author_list
+	# sonnet_df['polarity'] = polarity_list
+	# sonnet_df['subjectivity'] = subjectivity_list
 	return sonnet_df
