@@ -39,7 +39,6 @@ def clean_words(words, verbose=True):
             # new_words.append(hyph[1].encode('ascii', 'ignore').strip())
         else:
             new_words.append(word)              # put cleaned word in new_words
-    print(new_words)
     return new_words
 	# This function was taken from 'http://eayd.in/?p=232' and modified, I found, with the modifications, it to be more
 	# effective for known modern words than the function I originally created. But this function worked less well against
@@ -459,7 +458,7 @@ def text_line_parser(noise_list):
 
             #print line_syllables
             word_listed_list = compile_meter_list(cutoff_sentence)
-            print(word_listed_list)
+            # print(word_listed_list)
 
             error = 3
             bad_optimal = [[1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0,0,0,0,0]]
@@ -476,7 +475,7 @@ def text_line_parser(noise_list):
                     print('actually optimal:', sind)
                     text_list.append(cutoff_sentence)
                     meter_list.append(omc)
-    print(len(text_list), len(meter_list))
+    # print(len(text_list), len(meter_list))
     return text_list, meter_list
 
 # saving:
@@ -526,7 +525,7 @@ def text_to_df(text_list, meter_list, author):
     skipped_lines = 0
 
     for line_index, (t, m) in enumerate(zip(text_list, meter_list)):
-        print(t, m)
+        # print(t, m)
         # Set up the current row for the DataFrame, which is an internal list
         # for the list of lists.
         syllable_inflection_row = []
