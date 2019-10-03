@@ -16,7 +16,7 @@ def clean_words(words, verbose=True):
     new_words = []                             # list to collect all the cleaned words
     for word in words:
         word = str(word)
-        word = word.decode('utf-8').encode('ascii', 'ignore').strip()
+        word = str(word.encode('ascii', 'ignore').strip())
         if poss_is in word and poss_is == word[-2:]:
             word = word.replace(poss_is,'')     # removed poss_is
         elif poss_are in word and poss_are == word[-3:]:
