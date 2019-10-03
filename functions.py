@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import re
 from math import ceil
-from textblob import TextBlob
+# from textblob import TextBlob
 # import cPickle
 
 class PoetryParser(object):
