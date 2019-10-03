@@ -3,7 +3,9 @@ import pandas as pd
 import sys
 
 author="taylor swift"
-df_ts = pd.read_csv("taylor_swift_lyrics.csv", encoding='latin1')
+# df_ts = pd.read_csv("taylor_swift_lyrics.csv", encoding='latin1')
+# for dev work use the smaller data set below:
+df_ts = pd.read_csv("small_taylor_swift_lyrics.csv", encoding='latin1')
 
 
 text_list, meter_list = text_line_parser(df_ts["lyric"])
