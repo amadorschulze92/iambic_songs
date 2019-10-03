@@ -4,7 +4,7 @@ import pandas as pd
 pp = PoetryParser()
 
 author="taylor swift"
-df_ts = pd.read_csv("./Archive/taylor_swift_lyrics.csv")
+df_ts = pd.read_csv("taylor_swift_lyrics.csv")
 
 
 text_list, meter_list = pp.text_line_parser(df_ts["lyrics"])
