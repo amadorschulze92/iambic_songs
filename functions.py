@@ -435,9 +435,9 @@ def text_line_parser(noise_list):
     meter_list = []
 
     for sind, sentence in enumerate(noise_list):
-        sentence = sentence.split()
+        sentence = str(sentence).split()
         cleaned_words = clean_words(sentence)
- 
+
         # print(cleaned_words)
         line_syllables = sylco(cleaned_words)
 
