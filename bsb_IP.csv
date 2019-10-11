@@ -1,0 +1,350 @@
+,sonnet_index,syllables,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,word_list,sonnet_num,author,polarity,subjectivity
+0,1,11,stress,stress,stress,stress,unstress,stress,stress,unstress,stress,stress,stress,missing,"['Once', 'we', 'were', 'lovers', 'Just', 'lovers', 'we', 'were', 'Oh']",1,bsb,0.0,0.0
+1,8,11,stress,stress,stress,stress,stress,stress,stress,stress,missing,stress,stress,missing,"['But', 'love', 'is', 'all', 'I', 'have', 'to', 'give', '(It', 'all', 'that']",8,bsb,0.5,0.6
+2,21,11,stress,stress,stress,stress,stress,stress,stress,stress,missing,stress,stress,missing,"['But', 'love', 'is', 'all', 'I', 'have', 'to', 'give', '(That', 'all', 'I']",21,bsb,0.5,0.6
+3,24,11,stress,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'dont', 'know', 'what', 'he', 'does', 'to', 'make', 'you', 'cry', 'But']",24,bsb,0.0,0.0
+4,43,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,"['Hey', 'Yeah', 'yeah', 'I', 'wanna', 'know', 'Can', 'we', 'spend', 'this']",43,bsb,0.0,0.0
+5,54,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,missing,"['Why', 'you', 'cant', 'be', 'any', 'other', 'way', 'any', 'other']",54,bsb,-0.125,0.375
+6,55,11,stress,stress,stress,stress,stress,missing,missing,stress,stress,unstress,stress,missing,"['There', 'you', 'go', 'caught', 'you', 'crashin', 'my', 'dreams', 'again']",55,bsb,0.0,0.0
+7,61,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,missing,"['Why', 'you', 'cant', 'be', 'any', 'other', 'way', 'any', 'other']",61,bsb,-0.125,0.375
+8,63,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,missing,"['Why', 'you', 'cant', 'be', 'any', 'other', 'way', 'any', 'other']",63,bsb,-0.125,0.375
+9,65,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,missing,"['Why', 'you', 'cant', 'be', 'any', 'other', 'way', 'any', 'other']",65,bsb,-0.125,0.375
+10,72,11,stress,stress,stress,unstress,unstress,stress,stress,stress,unstress,unstress,stress,missing,"['I', 'go', 'anywhere', 'for', 'you', 'Anywhere', 'you']",72,bsb,0.0,0.0
+11,98,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['It', 'not', 'that', 'I', 'cant', 'live', 'without', 'you', 'It', 'just']",98,bsb,0.13636363636363635,0.5
+12,107,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['First', 'off', 'I', 'cant', 'keep', 'a', 'promise', 'Im', 'no', 'one']",107,bsb,0.25,0.3333333333333333
+13,108,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,missing,"['Ooh', 'Ooh', 'Boys', 'will', 'be', 'boys', 'Boys', 'will', 'be', 'boys', 'Youve']",108,bsb,0.0,0.0
+14,112,11,stress,stress,stress,stress,missing,stress,stress,stress,unstress,stress,stress,missing,"['Boys', 'will', 'be', 'boys', '(you', 'know', 'I', 'gotta', 'do', 'what']",112,bsb,0.0,0.0
+15,114,11,stress,stress,stress,stress,stress,unstress,unstress,stress,unstress,stress,stress,missing,"['Your', 'words', 'are', 'a', 'symphony', 'music', 'that', 'sings']",114,bsb,0.0,0.0
+16,115,11,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['And', 'someone', 'said', 'hey', 'we', 'locking', 'the', 'door', 'no']",115,bsb,0.0,0.0
+17,117,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Your', 'coat', 'on', 'the', 'chair', 'and', 'the', 'scent', 'of', 'your', 'hair']",117,bsb,0.0,0.0
+18,118,11,stress,stress,stress,stress,stress,unstress,unstress,stress,unstress,stress,stress,missing,"['Your', 'words', 'are', 'a', 'symphony', 'music', 'that', 'sings']",118,bsb,0.0,0.0
+19,119,11,stress,stress,stress,stress,stress,unstress,unstress,stress,unstress,stress,stress,missing,"['Your', 'words', 'are', 'a', 'symphony', 'music', 'that', 'sings']",119,bsb,0.0,0.0
+20,120,11,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['And', 'someone', 'said', 'hey', 'we', 'locking', 'the', 'door', 'no']",120,bsb,0.0,0.0
+21,122,11,stress,stress,stress,stress,stress,unstress,unstress,stress,unstress,stress,stress,missing,"['Your', 'words', 'are', 'a', 'symphony', 'music', 'that', 'sings']",122,bsb,0.0,0.0
+22,125,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['The', 'clock', 'on', 'the', 'wall', 'it', 'reminds', 'me', 'of', 'all']",125,bsb,0.0,0.0
+23,126,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Ooh', 'I', 'walked', 'by', 'the', 'store', 'where', 'we', 'sat', 'on', 'the']",126,bsb,0.0,0.0
+24,127,11,stress,stress,stress,stress,stress,unstress,unstress,stress,unstress,stress,stress,missing,"['Your', 'words', 'are', 'a', 'symphony', 'music', 'that', 'sings']",127,bsb,0.0,0.0
+25,129,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Ooh', 'I', 'walked', 'by', 'the', 'store', 'where', 'we', 'sat', 'on', 'the']",129,bsb,0.0,0.0
+26,131,11,stress,stress,stress,stress,stress,unstress,unstress,stress,unstress,stress,stress,missing,"['Your', 'words', 'are', 'a', 'symphony', 'music', 'that', 'sings']",131,bsb,0.0,0.0
+27,139,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['When', 'we', 'walked', 'in', 'the', 'park', 'and', 'we', 'whispered', 'in']",139,bsb,0.0,0.0
+28,140,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Your', 'coat', 'on', 'the', 'chair', 'and', 'the', 'scent', 'of', 'your', 'hair']",140,bsb,0.0,0.0
+29,141,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['When', 'we', 'walked', 'in', 'the', 'park', 'and', 'we', 'whispered', 'in']",141,bsb,0.0,0.0
+30,142,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['The', 'clock', 'on', 'the', 'wall', 'it', 'reminds', 'me', 'of', 'all']",142,bsb,0.0,0.0
+31,144,11,stress,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,stress,missing,"['Im', 'not', 'the', 'one', 'you', 'really', 'wanted', 'be', 'to']",144,bsb,0.2,0.2
+32,150,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,stress,missing,"['Saying', 'there', 'no', 'way', 'that', 'we', 'can', 'work', '(We', 'can']",150,bsb,0.0,0.0
+33,156,11,stress,stress,unstress,unstress,stress,stress,missing,stress,stress,unstress,unstress,missing,"['Im', 'saying', 'goodbye', 'to', 'you', '(Oh', 'Im', 'saying', 'goodbye']",156,bsb,0.0,0.0
+34,171,11,stress,stress,unstress,unstress,stress,stress,missing,stress,unstress,unstress,stress,missing,"['Im', 'saying', 'goodbye', 'to', 'you', '(Im', 'saying', 'goodbye', 'to']",171,bsb,0.0,0.0
+35,187,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,missing,"['And', 'you', 'never', 'showed', 'up', 'where', 'I', 'happened', 'to']",187,bsb,0.0,0.0
+36,199,11,stress,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,missing,"['What', 'if', 'I', 'never', 'run', 'into', 'you', 'What', 'if']",199,bsb,0.0,0.0
+37,206,11,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,stress,stress,missing,"['Am', 'I', 'crazy', 'is', 'it', 'blonder', 'than', 'it', 'was']",206,bsb,-0.6,0.9
+38,207,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['It', 'funny', 'how', 'a', 'year', 'can', 'fill', 'your', 'head', 'with']",207,bsb,0.25,1.0
+39,223,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,missing,"['Cause', 'babe', 'you', 'know', 'a', 'bottle', 'is', 'a', 'little']",223,bsb,-0.1875,0.5
+40,231,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,missing,missing,"['Now', 'Im', 'climbing', 'the', 'walls', 'cause', 'I', 'miss', '(I', 'miss)']",231,bsb,0.0,0.0
+41,234,11,stress,stress,stress,stress,stress,stress,stress,missing,missing,stress,unstress,missing,"['Caught', 'by', 'the', 'taste', 'of', 'your', 'kiss', '(I', 'dont', 'wanna']",234,bsb,0.0,0.0
+42,238,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['My', 'hands', 'and', 'knees', 'are', 'bruised', 'and', 'Im', 'crawling', 'back']",238,bsb,0.0,0.0
+43,240,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['My', 'hands', 'and', 'knees', 'are', 'bruised', 'and', 'now', 'Im', 'crawling']",240,bsb,0.0,0.0
+44,241,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['It', 'the', 'least', 'that', 'I', 'can', 'do', 'just', 'to', 'tell', 'you']",241,bsb,-0.3,0.4
+45,245,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,unstress,missing,"['I', 'was', 'running', 'from', 'the', 'truth', 'now', 'Im', 'crawling']",245,bsb,0.0,0.0
+46,247,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['I', 'was', 'lying', 'to', 'myself', 'now', 'Im', 'dying', 'in', 'this']",247,bsb,0.0,0.0
+47,249,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['My', 'hands', 'and', 'knees', 'are', 'bruised', 'and', 'Im', 'crawling', 'back']",249,bsb,0.0,0.0
+48,250,11,stress,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,missing,"['I', 'know', 'I', 'broke', 'your', 'heart', 'I', 'didnt', 'mean', 'to', 'break']",250,bsb,-0.3125,0.6875
+49,251,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,unstress,missing,"['I', 'was', 'running', 'from', 'the', 'truth', 'now', 'Im', 'crawling']",251,bsb,0.0,0.0
+50,253,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Girl', 'I', 'know', 'you', 'mad', 'I', 'cant', 'blame', 'you', 'for', 'being']",253,bsb,-0.625,1.0
+51,267,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Baby', 'wont', 'you', 'tell', 'me', 'what', 'to', 'do', 'to', 'make']",267,bsb,0.0,0.0
+52,277,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Baby', 'wont', 'you', 'tell', 'me', 'what', 'to', 'do', 'to', 'make']",277,bsb,0.0,0.0
+53,279,11,stress,missing,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,missing,"['Cause', 'Ive', 'only', 'ever', 'known', 'the', 'kind', 'of', 'love']",279,bsb,0.3666666666666667,0.8333333333333334
+54,280,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Im', 'not', 'that', 'kind', 'of', 'person', 'who', 'can', 'fall', 'in']",280,bsb,0.6,0.9
+55,283,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['Just', 'forgive', 'me', 'if', 'Im', 'being', 'too', 'open', 'no']",283,bsb,0.0,0.5
+56,286,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Im', 'not', 'that', 'kind', 'of', 'person', 'who', 'can', 'fall', 'in']",286,bsb,0.6,0.9
+57,287,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,"['Does', 'it', 'make', 'you', 'wanna', 'pick', 'up', 'all', 'your', 'things']",287,bsb,0.0,0.0
+58,288,11,stress,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,missing,"['It', 'the', 'only', 'one', 'it', 'the', 'only', 'one', 'I']",288,bsb,0.0,1.0
+59,291,11,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,missing,"['So', 'forgive', 'me', 'for', 'my', 'mixed', 'emotions', 'yeah']",291,bsb,0.0,0.25
+60,292,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Im', 'not', 'that', 'kind', 'of', 'person', 'who', 'can', 'fall', 'in']",292,bsb,0.6,0.9
+61,293,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Im', 'not', 'that', 'kind', 'of', 'person', 'who', 'can', 'fall', 'in']",293,bsb,0.6,0.9
+62,304,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'never', 'thought', 'that', 'I', 'would', 'lose', 'my', 'mind', 'That']",304,bsb,0.0,0.0
+63,311,11,missing,missing,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['Dont', 'dont', 'want', 'you', 'back', 'You', 'hit', 'me', 'faster', 'than']",311,bsb,0.0,0.0
+64,320,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['But', 'I', 'was', 'blind', 'and', 'so', 'I', 'lost', 'all', 'common']",320,bsb,-0.4,0.5833333333333333
+65,342,11,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,unstress,stress,missing,"['Got', 'a', 'question', 'for', 'you', 'better', 'answer', 'now']",342,bsb,0.5,0.5
+66,363,11,stress,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,unstress,missing,"['But', 'here', 'we', 'stand', 'together', 'and', 'were', 'millions']",363,bsb,0.0,0.0
+67,370,11,missing,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,stress,missing,"['Weve', 'been', 'through', 'days', 'of', 'thunder', 'Some', 'people', 'said']",370,bsb,0.0,0.0
+68,375,11,unstress,stress,unstress,stress,unstress,stress,stress,stress,unstress,stress,stress,missing,"['Whatever', 'comes', 'around', 'well', 'always', 'stay', 'the']",375,bsb,0.0,0.0
+69,385,11,stress,unstress,unstress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['Walking', 'along', 'the', 'sky', 'Chasing', 'a', 'glimpse', 'of']",385,bsb,0.0,0.0
+70,386,11,stress,unstress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['Painting', 'a', 'world', 'with', 'stars', 'I', 'found', 'inside', 'your']",386,bsb,0.0,0.0
+71,390,11,stress,unstress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Wondering', 'what', 'it', 'would', 'be', 'like', 'if', 'you', 'were']",390,bsb,0.0,0.0
+72,422,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,unstress,stress,missing,"['Was', 'it', 'all', 'the', 'promises', 'of', 'diamonds', 'pearls']",422,bsb,0.0,0.0
+73,423,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,stress,missing,"['I', 'know', 'that', 'you', 'are', 'the', 'one', 'for', 'me', '(one', 'for']",423,bsb,0.0,0.0
+74,424,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,stress,missing,"['I', 'know', 'that', 'you', 'are', 'the', 'one', 'for', 'me', '(one', 'for']",424,bsb,0.0,0.0
+75,427,11,stress,stress,stress,stress,stress,stress,stress,stress,unstress,unstress,stress,missing,"['You', 'the', 'one', 'for', 'me', 'You', 'my', 'ecstasy', 'You']",427,bsb,0.0,0.0
+76,434,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,stress,missing,"['I', 'know', 'that', 'you', 'are', 'the', 'one', 'for', 'me', '(one', 'for']",434,bsb,0.0,0.0
+77,436,11,stress,stress,stress,unstress,stress,stress,stress,missing,stress,stress,stress,missing,"['But', 'Im', 'helpless', 'when', 'she', 'smiles', '(oh', 'when', 'she', 'smiles']",436,bsb,0.0,0.0
+78,442,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['She', 'cuts', 'me', 'and', 'the', 'pain', 'is', 'all', 'I', 'wanna']",442,bsb,0.0,0.0
+79,447,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['She', 'keeps', 'the', 'secrets', 'in', 'her', 'eyes', 'She', 'wraps', 'the']",447,bsb,0.0,0.0
+80,450,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['She', 'cuts', 'me', 'and', 'the', 'pain', 'is', 'all', 'I', 'wanna']",450,bsb,0.0,0.0
+81,454,11,stress,stress,stress,unstress,stress,stress,stress,missing,stress,stress,stress,missing,"['But', 'Im', 'helpless', 'when', 'she', 'smiles', '(oh', 'when', 'she', 'smiles']",454,bsb,0.0,0.0
+82,455,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['She', 'cuts', 'me', 'and', 'the', 'pain', 'is', 'all', 'I', 'wanna']",455,bsb,0.0,0.0
+83,462,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,missing,"['Are', 'you', 'lost', 'in', 'lost', 'inside', 'of', 'lost', 'inside']",462,bsb,0.0,0.0
+84,464,11,stress,missing,missing,stress,stress,missing,stress,stress,stress,stress,stress,missing,"['Ah', 'Backstreet', 'Yes', 'yes', 'yall', 'One', 'time', 'here', 'we', 'go']",464,bsb,0.0,0.0
+85,494,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Open', 'up', 'your', 'heart', 'to', 'me', 'It', 'say', 'what', 'on']",494,bsb,0.0,0.5
+86,504,11,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['(I', 'love', 'you', 'I', 'love', 'you', 'I', 'love', 'you', 'I', 'love']",504,bsb,0.5,0.6
+87,508,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,missing,"['It', 'in', 'the', 'silences', 'The', 'words', 'you', 'never', 'say']",508,bsb,0.0,0.0
+88,514,11,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['But', 'late', 'at', 'night', 'I', 'feel', 'the', 'tremble', 'in', 'your']",514,bsb,-0.3,0.6
+89,517,11,stress,stress,stress,unstress,stress,stress,missing,stress,stress,unstress,stress,missing,"['Like', 'Im', 'right', 'beside', 'you', '(like', 'Im', 'right', 'beside']",517,bsb,0.2857142857142857,0.5357142857142857
+90,524,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Who', 'are', 'you', 'now', 'Are', 'you', 'still', 'the', 'same', 'Or', 'did']",524,bsb,0.0,0.125
+91,527,11,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['I', 'wanna', 'be', 'with', 'you', 'It', 'crazy', 'but', 'it']",527,bsb,-0.6,0.9
+92,528,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,missing,"['Yeah', 'You', 'are', 'my', 'fire', 'The', 'one', 'desire', 'Believe']",528,bsb,0.0,0.0
+93,537,11,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Baby', 'I', 'know', 'you', 'hurting', 'Right', 'now', 'you', 'feel']",537,bsb,0.2857142857142857,0.5357142857142857
+94,538,11,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Baby', 'I', 'know', 'you', 'hurting', 'Right', 'now', 'you', 'feel']",538,bsb,0.2857142857142857,0.5357142857142857
+95,573,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['So', 'Im', 'begging', 'you', 'please', 'bring', 'your', 'sweet', 'love', 'back']",573,bsb,0.2833333333333333,0.4166666666666667
+96,595,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['If', 'you', 'want', 'it', 'to', 'be', 'good', 'girl', 'Get', 'yourself']",595,bsb,0.7,0.6000000000000001
+97,598,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['In', 'a', 'time', 'like', 'this', 'where', 'nothing', 'comes', 'from', 'the']",598,bsb,0.0,0.0
+98,604,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['In', 'a', 'time', 'like', 'this', 'where', 'nothing', 'comes', 'from', 'the']",604,bsb,0.0,0.0
+99,606,11,missing,stress,stress,stress,stress,unstress,stress,stress,unstress,stress,stress,missing,"['Youve', 'got', 'me', 'wide', 'open', 'wide', 'open', 'Now', 'Im']",606,bsb,-0.05,0.45
+100,613,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['In', 'a', 'time', 'like', 'this', 'where', 'nothing', 'comes', 'from', 'the']",613,bsb,0.0,0.0
+101,618,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['Empty', 'spaces', 'fill', 'me', 'up', 'with', 'holes', 'Distant', 'faces']",618,bsb,-0.1,0.425
+102,637,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,unstress,missing,missing,"['I', 'pray', 'for', 'this', 'heart', 'to', 'be', 'unbroken', '(Heart']",637,bsb,0.0,0.0
+103,646,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Cause', 'all', 'I', 'ever', 'want', 'it', 'comes', 'right', 'down', 'to']",646,bsb,0.06507936507936506,0.4123015873015873
+104,656,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'can', 'see', 'the', 'edge', 'but', 'I', 'cant', 'take', 'the', 'fall']",656,bsb,0.0,0.0
+105,657,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Cause', 'all', 'I', 'ever', 'want', 'it', 'comes', 'right', 'down', 'to']",657,bsb,0.06507936507936506,0.4123015873015873
+106,662,11,stress,stress,stress,stress,stress,stress,missing,missing,stress,stress,missing,missing,"['It', 'comes', 'right', 'down', 'to', 'you', '(to', 'you)', 'to', 'you', '(to']",662,bsb,0.06507936507936506,0.4123015873015873
+107,666,11,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,stress,missing,"['We', 'used', 'to', 'be', 'used', 'to', 'be', 'better', '(Used', 'to']",666,bsb,0.5,0.5
+108,669,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['You', 'did', 'it', 'then', 'you', 'do', 'it', 'again', 'now', 'Im']",669,bsb,0.0,0.0
+109,670,11,missing,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Dont', 'wanna', 'make', 'it', 'real', 'if', 'it', 'not', 'I', 'wish']",670,bsb,0.2,0.30000000000000004
+110,671,11,stress,stress,stress,stress,unstress,stress,stress,unstress,stress,stress,stress,missing,"['We', 'used', 'to', 'talk', 'about', 'growing', 'old', 'now', 'I']",671,bsb,0.1,0.2
+111,672,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['The', 'more', 'I', 'think', 'about', 'how', 'we', 'were', 'the', 'more']",672,bsb,0.5,0.5
+112,675,11,stress,stress,missing,missing,stress,stress,stress,stress,unstress,stress,stress,missing,"['Used', 'to', 'heatin', 'up', 'in', 'the', 'shower', 'at', 'it']",675,bsb,0.0,0.0
+113,677,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['You', 'did', 'it', 'then', 'you', 'do', 'it', 'again', 'now', 'Im']",677,bsb,0.0,0.0
+114,684,11,missing,missing,stress,stress,stress,unstress,stress,stress,stress,stress,unstress,missing,"['Feelin', 'like', 'there', 'nowhere', 'to', 'go', 'it', 'taking']",684,bsb,0.0,0.0
+115,690,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['You', 'did', 'it', 'then', 'you', 'do', 'it', 'again', 'now', 'Im']",690,bsb,0.0,0.0
+116,692,11,stress,stress,missing,missing,stress,stress,stress,stress,unstress,stress,stress,missing,"['Used', 'to', 'heatin', 'up', 'in', 'the', 'shower', 'at', 'it']",692,bsb,0.0,0.0
+117,693,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['The', 'more', 'I', 'think', 'about', 'how', 'we', 'were', 'the', 'more']",693,bsb,0.5,0.5
+118,704,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['Baby', 'it', 'the', 'way', 'you', 'make', 'me', 'Kinda', 'get']",704,bsb,0.0,0.0
+119,718,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Turn', 'that', 'music', 'way', 'down', 'low', 'Well', 'take', 'it', 'nice']",718,bsb,0.14814814814814814,0.5296296296296297
+120,743,11,stress,unstress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,"['Looking', 'at', 'your', 'picture', 'from', 'when', 'we', 'first', 'met']",743,bsb,0.25,0.3333333333333333
+121,748,11,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,stress,missing,"['But', 'still', 'I', 'have', 'to', 'say', '(but', 'still', 'I', 'have', 'to']",748,bsb,0.0,0.0
+122,750,11,stress,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,missing,"['And', 'I', 'just', 'want', 'you', 'to', 'know', '(cause', 'I', 'cant', 'fight']",750,bsb,0.0,0.0
+123,779,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['Looking', 'at', 'the', 'crowd', 'and', 'I', 'see', 'your', 'body']",779,bsb,0.0,0.0
+124,782,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['But', 'all', 'I', 'wanna', 'know', 'is', 'where', 'the', 'party']",782,bsb,0.0,0.0
+125,783,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['But', 'all', 'I', 'wanna', 'know', 'is', 'where', 'the', 'party']",783,bsb,0.0,0.0
+126,784,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['But', 'all', 'I', 'wanna', 'know', 'is', 'where', 'the', 'party']",784,bsb,0.0,0.0
+127,785,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,unstress,missing,"['The', 'mad', 'fun', 'has', 'just', 'began', 'at', 'the', 'party']",785,bsb,-0.1625,0.6
+128,787,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['But', 'all', 'I', 'wanna', 'know', 'is', 'where', 'the', 'party']",787,bsb,0.0,0.0
+129,788,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['But', 'all', 'I', 'wanna', 'know', 'is', 'where', 'the', 'party']",788,bsb,0.0,0.0
+130,791,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['And', 'I', 'cant', 'take', 'the', 'day', 'without', 'you', 'by', 'my']",791,bsb,0.0,0.0
+131,796,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Baby', 'you', 'can', 'help', 'me', 'stop', 'these', 'tears', 'from', 'my']",796,bsb,0.0,0.0
+132,803,11,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,stress,missing,"['That', 'there', 'a', 'broken', 'heart', 'that', 'lies', 'within', 'your']",803,bsb,-0.4,0.4
+133,811,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Oh', 'no', 'Take', 'what', 'you', 'need', 'cause', 'I', 'cant', 'hold', 'my']",811,bsb,0.0,0.0
+134,813,11,missing,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Therell', 'be', 'nothing', 'left', 'to', 'lose', 'and', 'I', 'would']",813,bsb,0.0,0.0
+135,820,11,missing,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Therell', 'be', 'nothing', 'left', 'to', 'lose', 'and', 'I', 'would']",820,bsb,0.0,0.0
+136,823,11,stress,unstress,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,missing,"['Heaven', 'will', 'be', 'waiting', 'when', 'I', 'fall', 'into']",823,bsb,0.0,0.0
+137,824,11,missing,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Therell', 'be', 'nothing', 'left', 'to', 'lose', 'and', 'I', 'would']",824,bsb,0.0,0.0
+138,831,11,missing,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Therell', 'be', 'nothing', 'left', 'to', 'lose', 'and', 'I', 'would']",831,bsb,0.0,0.0
+139,836,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Im', 'so', 'in', 'love', 'I', 'can', 'die', 'right', 'now', 'and', 'be']",836,bsb,0.39285714285714285,0.5678571428571428
+140,838,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,missing,"['You', 'know', 'that', 'Im', 'gonna', 'love', 'you', 'gonna', 'love']",838,bsb,0.5,0.6
+141,850,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Im', 'so', 'in', 'love', 'I', 'can', 'die', 'right', 'now', 'and', 'be']",850,bsb,0.39285714285714285,0.5678571428571428
+142,851,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['Love', 'Is', 'it', 'too', 'much', 'to', 'ask', 'for', 'One', 'minute']",851,bsb,0.35,0.4
+143,859,11,stress,stress,stress,unstress,stress,stress,unstress,stress,unstress,stress,stress,missing,"['You', 'the', 'reason', 'I', 'never', 'wanna', 'sleep', 'at']",859,bsb,0.0,0.0
+144,863,11,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,stress,missing,"['I', 'wont', 'tell', 'nobody', 'Ill', 'just', 'scream', 'it', 'in']",863,bsb,-0.5,1.0
+145,883,11,unstress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Madeleine', 'What', 'up', 'with', 'those', 'tears', 'in', 'your', 'eyes']",883,bsb,0.0,0.0
+146,890,11,unstress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Remember', 'when', 'we', 'used', 'to', 'sit', 'and', 'watch', 'from']",890,bsb,0.0,0.0
+147,895,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['And', 'you', 'put', 'it', 'in', 'a', 'movie', 'maybe', 'be', 'the', 'movie']",895,bsb,0.0,0.0
+148,898,11,stress,unstress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['Waiting', 'for', 'the', 'day', 'I', 'can', 'run', 'away', 'with']",898,bsb,0.0,0.0
+149,918,11,stress,unstress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['Waiting', 'for', 'the', 'night', 'I', 'can', 'feel', 'alive', 'with']",918,bsb,0.1,0.4
+150,923,11,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,unstress,missing,"['We', 'can', 'only', 'make', 'believe', 'We', 'can', 'only']",923,bsb,0.0,1.0
+151,931,11,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Burning', 'Im', 'burning', 'cant', 'you', 'see', 'it', 'in', 'my']",931,bsb,0.0,0.0
+152,932,11,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Yearning', 'Im', 'yearning', 'for', 'the', 'one', 'to', 'steal', 'my']",932,bsb,0.0,0.0
+153,970,11,stress,stress,stress,stress,missing,stress,stress,stress,stress,stress,stress,missing,"['I', 'can', 'see', 'that', 'youve', 'been', 'crying', 'You', 'cant', 'hide', 'it']",970,bsb,-0.2,0.6
+154,976,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['How', 'can', 'I', 'begin', 'to', 'Tell', 'you', 'what', 'you', 'do']",976,bsb,0.0,0.0
+155,979,11,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,missing,"['I', 'know', 'you', 'would', 'be', 'forever', 'in', 'my', 'life']",979,bsb,0.0,0.0
+156,981,11,stress,unstress,stress,stress,stress,missing,stress,stress,stress,unstress,missing,missing,"['Even', 'though', 'for', 'now', 'weve', 'got', 'to', 'say', 'goodbye', '(yeah']",981,bsb,0.0,0.0
+157,991,11,stress,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,missing,"['In', 'my', 'heart', 'is', 'where', 'you', 'are', '(in', 'my', 'heart', 'is']",991,bsb,0.0,0.0
+158,995,11,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,missing,"['I', 'know', 'you', 'would', 'be', 'forever', 'in', 'my', 'life']",995,bsb,0.0,0.0
+159,997,11,stress,stress,stress,stress,stress,stress,missing,missing,missing,stress,stress,missing,"['And', 'I', 'call', 'it', 'new', 'love', '(New', 'love)', 'new', 'love']",997,bsb,0.3181818181818182,0.5272727272727272
+160,998,11,stress,stress,missing,stress,stress,stress,stress,stress,missing,stress,stress,missing,"['Cause', 'it', 'dont', 'feel', 'like', 'the', 'wrong', 'thing', '(Dont', 'feel', 'like']",998,bsb,-0.5,0.9
+161,999,11,stress,stress,stress,stress,stress,stress,missing,missing,missing,stress,stress,missing,"['And', 'I', 'call', 'it', 'new', 'love', '(New', 'love)', 'new', 'love']",999,bsb,0.3181818181818182,0.5272727272727272
+162,1004,11,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,stress,missing,"['I', 'stay', 'on', 'my', 'own', 'thing', '(I', 'stay', 'on', 'my', 'own']",1004,bsb,0.6,1.0
+163,1007,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Oh', 'yeah', 'Oh', 'oh', 'oh', 'yeah', 'Oh', 'oh', 'oh', 'oh', 'yeah']",1007,bsb,0.0,0.0
+164,1009,11,stress,stress,stress,missing,stress,stress,stress,stress,stress,stress,missing,missing,"['You', 'and', 'I', 'dont', 'feel', 'like', 'the', 'wrong', 'thing', 'yeah', '(Oh']",1009,bsb,-0.5,0.9
+165,1010,11,stress,stress,missing,stress,stress,stress,stress,stress,missing,stress,stress,missing,"['Cause', 'it', 'dont', 'feel', 'like', 'the', 'wrong', 'thing', '(Dont', 'feel', 'like']",1010,bsb,-0.5,0.9
+166,1011,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['Just', 'let', 'me', 'do', 'what', 'I', 'do', 'ooh', 'yeah', 'baby']",1011,bsb,0.0,0.0
+167,1013,11,stress,stress,stress,stress,stress,stress,missing,missing,missing,stress,stress,missing,"['And', 'I', 'call', 'it', 'new', 'love', '(New', 'love)', 'new', 'love']",1013,bsb,0.3181818181818182,0.5272727272727272
+168,1017,11,missing,stress,stress,stress,stress,stress,missing,stress,stress,stress,stress,missing,"['Dont', 'say', 'it', 'the', 'wrong', 'thing', '(Dont', 'say', 'it', 'the', 'wrong']",1017,bsb,-0.5,0.9
+169,1019,11,missing,stress,stress,stress,stress,stress,missing,stress,stress,stress,stress,missing,"['Dont', 'say', 'it', 'the', 'wrong', 'thing', '(Dont', 'say', 'it', 'the', 'wrong']",1019,bsb,-0.5,0.9
+170,1020,11,stress,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,missing,"['That', 'night', 'bein', 'a', 'long', 'thing', 'yeah', '(At', 'night', 'bein', 'the']",1020,bsb,-0.05,0.4
+171,1024,11,stress,stress,stress,stress,stress,stress,missing,stress,stress,stress,stress,missing,"['I', 'stay', 'on', 'my', 'own', 'thing', '(I', 'stay', 'on', 'my', 'own']",1024,bsb,0.6,1.0
+172,1058,11,stress,missing,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,missing,"['But', 'youll', 'always', 'be', 'the', 'home', 'I', 'wanna', 'come']",1058,bsb,0.0,0.0
+173,1063,11,missing,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Ive', 'been', 'to', 'Paris', 'made', 'my', 'way', 'down', 'to', 'Rome']",1063,bsb,-0.15555555555555559,0.2888888888888889
+174,1064,11,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Ive', 'been', 'all', 'around', 'the', 'world', 'done', 'all', 'there', 'is']",1064,bsb,0.0,0.0
+175,1065,11,stress,missing,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,missing,"['But', 'youll', 'always', 'be', 'the', 'home', 'I', 'wanna', 'come']",1065,bsb,0.0,0.0
+176,1067,11,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Ive', 'been', 'all', 'around', 'the', 'world', 'done', 'all', 'there', 'is']",1067,bsb,0.0,0.0
+177,1070,11,stress,stress,stress,unstress,stress,stress,unstress,stress,stress,unstress,stress,missing,"['In', 'the', 'city', 'the', 'country', 'the', 'mountains', 'or']",1070,bsb,0.0,0.0
+178,1071,11,unstress,unstress,stress,unstress,unstress,stress,unstress,unstress,stress,unstress,unstress,missing,"['In', 'the', 'city', 'the', 'country', 'the', 'mountains', 'or']",1071,bsb,0.0,0.0
+179,1074,11,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Ive', 'been', 'all', 'around', 'the', 'world', 'done', 'all', 'there', 'is']",1074,bsb,0.0,0.0
+180,1078,11,stress,missing,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,missing,"['But', 'youll', 'always', 'be', 'the', 'home', 'I', 'wanna', 'come']",1078,bsb,0.0,0.0
+181,1086,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['And', 'just', 'last', 'night', 'we', 'spilled', 'red', 'wine', 'how', 'it', 'stained']",1086,bsb,0.0,0.03333333333333333
+182,1087,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'compare', 'you', 'to', 'no', 'one', 'else', 'no', 'one']",1087,bsb,0.0,0.0
+183,1089,11,stress,missing,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'dont', 'wanna', 'share', 'you', 'with', 'no', 'one', 'else', 'no']",1089,bsb,0.0,0.0
+184,1090,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['All', 'this', 'space', 'in', 'between', 'us', 'makes', 'it', 'hard', 'to']",1090,bsb,-0.2916666666666667,0.5416666666666666
+185,1094,11,stress,missing,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'dont', 'wanna', 'share', 'you', 'with', 'no', 'one', 'else', 'no']",1094,bsb,0.0,0.0
+186,1096,11,stress,unstress,unstress,stress,unstress,unstress,stress,unstress,unstress,stress,missing,missing,"['Nobody', 'nobody', 'nobody', 'else', '(No']",1096,bsb,0.0,0.0
+187,1098,11,stress,stress,unstress,unstress,unstress,stress,unstress,stress,stress,stress,stress,missing,"['Just', 'memorizing', 'lines', 'upon', 'your', 'face', 'I']",1098,bsb,0.0,0.0
+188,1099,11,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['Torn', 'by', 'the', 'way', 'your', 'voice', 'is', 'changing', 'on', 'the']",1099,bsb,0.0,0.0
+189,1100,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['And', 'just', 'last', 'night', 'I', 'had', 'some', 'red', 'wine', 'and', 'it']",1100,bsb,0.0,0.03333333333333333
+190,1108,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'compare', 'you', 'to', 'no', 'one', 'else', 'no', 'one']",1108,bsb,0.0,0.0
+191,1110,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'compare', 'you', 'to', 'no', 'one', 'else', 'no', 'one']",1110,bsb,0.0,0.0
+192,1111,11,stress,missing,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'dont', 'wanna', 'share', 'you', 'with', 'no', 'one', 'else', 'no']",1111,bsb,0.0,0.0
+193,1112,11,stress,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,unstress,missing,"['And', 'though', 'I', 'know', 'that', 'nothing', 'ever', 'really']",1112,bsb,0.2,0.2
+194,1115,11,missing,stress,unstress,unstress,stress,stress,stress,missing,stress,unstress,unstress,missing,"['Aint', 'nobody', 'else', 'but', 'you', 'Aint', 'nobody']",1115,bsb,0.0,0.0
+195,1133,11,stress,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,"['Im', 'getting', 'the', 'feeling', 'that', 'it', 'time', 'for', 'me']",1133,bsb,0.0,0.0
+196,1134,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Cause', 'if', 'you', 'think', 'that', 'it', 'the', 'way', 'that', 'love', 'should']",1134,bsb,0.5,0.6
+197,1140,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,"['I', 'should', 'have', 'known', 'better', 'than', 'to', 'buy', 'your', 'lies']",1140,bsb,0.5,0.5
+198,1144,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Cause', 'if', 'you', 'think', 'that', 'it', 'the', 'way', 'that', 'love', 'should']",1144,bsb,0.5,0.6
+199,1148,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Cause', 'if', 'you', 'think', 'that', 'it', 'the', 'way', 'that', 'love', 'should']",1148,bsb,0.5,0.6
+200,1150,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Cause', 'if', 'you', 'think', 'that', 'it', 'the', 'way', 'that', 'love', 'should']",1150,bsb,0.5,0.6
+201,1152,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Well', 'find', 'a', 'way', 'as', 'long', 'as', 'Im', 'with', 'you', 'Im']",1152,bsb,-0.05,0.4
+202,1160,11,unstress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['July', 'It', 'only', 'been', 'a', 'month', 'since', 'I', 'met']",1160,bsb,0.0,1.0
+203,1165,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Well', 'find', 'a', 'way', 'as', 'long', 'as', 'Im', 'with', 'you', 'Im']",1165,bsb,-0.05,0.4
+204,1169,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Well', 'find', 'a', 'way', 'as', 'long', 'as', 'Im', 'with', 'you', 'Im']",1169,bsb,-0.05,0.4
+205,1181,11,stress,stress,unstress,missing,stress,stress,stress,stress,unstress,stress,unstress,missing,"['But', 'even', 'Ive', 'got', 'rights', 'you', 'always', 'gonna']",1181,bsb,0.0,0.0
+206,1188,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['And', 'Im', 'guilty', 'as', 'charged', 'cause', 'I', 'went', 'and', 'broke']",1188,bsb,-0.5,1.0
+207,1189,11,stress,stress,unstress,missing,stress,stress,stress,stress,unstress,stress,unstress,missing,"['But', 'even', 'Ive', 'got', 'rights', 'your', 'always', 'gonna']",1189,bsb,0.0,0.0
+208,1190,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['And', 'Im', 'guilty', 'as', 'charged', 'cause', 'I', 'went', 'and', 'broke']",1190,bsb,-0.5,1.0
+209,1193,11,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['Hard', 'to', 'believe', 'it', 'It', 'almost', 'a', 'year', 'since']",1193,bsb,-0.2916666666666667,0.5416666666666666
+210,1201,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'but', 'think', 'of', 'the', 'first', 'time', 'I', 'saw']",1201,bsb,0.25,0.3333333333333333
+211,1229,11,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['Kissing', 'and', 'touching', 'with', 'my', 'hands', 'all', 'over']",1229,bsb,0.5,0.5
+212,1232,11,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['Kissing', 'and', 'touching', 'with', 'my', 'hands', 'all', 'over']",1232,bsb,0.5,0.5
+213,1238,11,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['Kissing', 'and', 'touching', 'with', 'my', 'hands', 'all', 'over']",1238,bsb,0.5,0.5
+214,1242,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Stop', 'it', 'stop', 'it', 'Stop', 'it', 'stop', 'it', 'Go', 'stop', 'and']",1242,bsb,0.0,0.0
+215,1249,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1249,bsb,0.0,0.0
+216,1252,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1252,bsb,0.0,0.0
+217,1253,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1253,bsb,0.0,0.0
+218,1256,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1256,bsb,0.0,0.0
+219,1261,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1261,bsb,0.0,0.0
+220,1262,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1262,bsb,0.0,0.0
+221,1265,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['You', 'know', 'it', 'like', 'I', 'got', 'no', 'brakes', 'in', 'my', 'car']",1265,bsb,0.0,0.0
+222,1267,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1267,bsb,0.0,0.0
+223,1268,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1268,bsb,0.0,0.0
+224,1269,11,stress,stress,stress,stress,stress,missing,stress,stress,missing,missing,stress,missing,"['And', 'I', 'want', 'your', 'love', '(I', 'want', 'your', 'love)', 'I']",1269,bsb,0.5,0.6
+225,1270,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1270,bsb,0.0,0.0
+226,1271,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1271,bsb,0.0,0.0
+227,1273,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1273,bsb,0.0,0.0
+228,1274,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1274,bsb,0.0,0.0
+229,1275,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1275,bsb,0.0,0.0
+230,1276,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1276,bsb,0.0,0.0
+231,1278,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['I', 'cant', 'help', 'it', 'I', 'need', 'to', 'get', 'my', 'hands', 'on']",1278,bsb,0.0,0.0
+232,1279,11,stress,stress,stress,stress,stress,missing,stress,stress,missing,missing,stress,missing,"['And', 'I', 'want', 'your', 'love', '(I', 'want', 'your', 'love)', 'I']",1279,bsb,0.5,0.6
+233,1281,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Need', 'to', 'get', 'my', 'hands', 'on', 'all', 'of', 'it', 'all', 'a']",1281,bsb,0.0,0.0
+234,1283,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,missing,"['How', 'you', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart']",1283,bsb,0.0,0.0
+235,1285,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,missing,"['Cause', 'you', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart']",1285,bsb,0.0,0.0
+236,1288,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,missing,"['Cause', 'you', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart']",1288,bsb,0.0,0.0
+237,1291,11,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Never', 'gonna', 'fade', 'one', 'can', 'touch', 'the', 'flame', 'and']",1291,bsb,0.0,0.0
+238,1295,11,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,stress,missing,"['You', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart', 'and']",1295,bsb,0.0,0.0
+239,1300,11,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,stress,stress,missing,"['Out', 'of', 'the', 'rain', 'looking', 'for', 'sunshine', 'I', 'call']",1300,bsb,0.0,0.0
+240,1303,11,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,stress,missing,"['You', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart', 'and']",1303,bsb,0.0,0.0
+241,1304,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,missing,"['Cause', 'you', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart']",1304,bsb,0.0,0.0
+242,1305,11,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,stress,missing,"['You', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart', 'and']",1305,bsb,0.0,0.0
+243,1308,11,stress,stress,stress,unstress,unstress,stress,missing,stress,unstress,stress,stress,missing,"['I', 'let', 'you', 'disappear', 'shouldve', 'never', 'let', 'you']",1308,bsb,0.0,0.0
+244,1310,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,missing,"['How', 'you', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart']",1310,bsb,0.0,0.0
+245,1311,11,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,stress,missing,"['How', 'you', 'left', 'a', 'permanent', 'stain', 'on', 'my', 'heart']",1311,bsb,0.0,0.0
+246,1314,11,stress,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,stress,missing,"['And', 'no', 'woman', 'in', 'the', 'world', 'ever', 'made', 'me']",1314,bsb,0.0,0.0
+247,1321,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,missing,"['That', 'your', 'life', 'is', 'just', 'a', 'chain', 'reaction', 'taking']",1321,bsb,0.0,0.0
+248,1328,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,missing,"['That', 'your', 'life', 'is', 'just', 'a', 'chain', 'reaction', 'taking']",1328,bsb,0.0,0.0
+249,1330,11,stress,stress,stress,unstress,unstress,stress,stress,stress,unstress,stress,unstress,missing,"['That', 'the', 'consequences', 'of', 'your', 'actions', 'really']",1330,bsb,0.2,0.2
+250,1335,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,missing,"['That', 'your', 'life', 'is', 'just', 'a', 'chain', 'reaction', 'taking']",1335,bsb,0.0,0.0
+251,1338,11,stress,stress,stress,unstress,unstress,stress,stress,stress,unstress,stress,unstress,missing,"['That', 'the', 'consequences', 'of', 'your', 'actions', 'really']",1338,bsb,0.2,0.2
+252,1340,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,missing,"['That', 'your', 'life', 'is', 'just', 'a', 'chain', 'reaction', 'taking']",1340,bsb,0.0,0.0
+253,1345,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,missing,"['That', 'your', 'life', 'is', 'just', 'a', 'chain', 'reaction', 'taking']",1345,bsb,0.0,0.0
+254,1346,11,stress,stress,stress,unstress,unstress,stress,stress,stress,unstress,stress,unstress,missing,"['That', 'the', 'consequences', 'of', 'your', 'actions', 'really']",1346,bsb,0.2,0.2
+255,1347,11,stress,stress,stress,unstress,unstress,stress,stress,stress,unstress,stress,unstress,missing,"['That', 'the', 'consequences', 'of', 'your', 'actions', 'really']",1347,bsb,0.2,0.2
+256,1351,10,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Even', 'in', 'my', 'heart', 'I', 'see', 'You', 'not', 'bein', 'true']",1351,bsb,0.35,0.65
+257,1359,11,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Baby', 'baby', 'the', 'love', 'that', 'we', 'had', 'was', 'so']",1359,bsb,0.5,0.6
+258,1360,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Roll', 'with', 'it', 'Roll', 'with', 'it', 'Oh', 'yeah', 'Roll', 'with', 'it']",1360,bsb,0.0,0.0
+259,1374,11,stress,stress,stress,stress,stress,stress,unstress,unstress,stress,stress,stress,missing,"['Yeah', 'yeah', 'It', 'seems', 'like', 'yesterday', 'when', 'I', 'said']",1374,bsb,0.0,0.0
+260,1377,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['And', 'after', 'all', 'this', 'time', 'my', 'heart', 'still', 'burns', 'for']",1377,bsb,0.0,0.0
+261,1378,11,stress,stress,missing,stress,stress,stress,stress,stress,stress,stress,unstress,missing,"['If', 'you', 'dont', 'know', 'by', 'now', 'that', 'you', 'my', 'only']",1378,bsb,0.0,1.0
+262,1379,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,missing,missing,"['Take', 'a', 'look', 'inside', 'me', 'and', 'watch', 'my', 'heartstrings']",1379,bsb,0.0,0.0
+263,1388,11,stress,stress,stress,stress,stress,stress,missing,stress,unstress,stress,stress,missing,"['I', 'bet', 'you', 'say', 'that', 'I', 'dont', 'even', 'think', 'of']",1388,bsb,0.0,0.0
+264,1390,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['Baby', 'will', 'you', 'be', 'there', 'when', 'I', 'open', 'my']",1390,bsb,0.0,0.5
+265,1399,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Now', 'let', 'me', 'show', 'you', 'the', 'shape', 'the', 'shape', 'of', 'my']",1399,bsb,0.0,0.0
+266,1400,11,missing,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,stress,missing,"['Hmm', 'yeah', 'yeah', 'Baby', 'please', 'try', 'to', 'forgive', 'me']",1400,bsb,0.0,0.0
+267,1406,11,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['(Felt)', 'it', 'slipped', 'from', 'your', 'hand', 'hit', 'the', 'ground', 'and', 'now']",1406,bsb,0.0,0.0
+268,1409,11,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['(Felt', 'it', 'slipped', 'from', 'you', 'hand', 'hit', 'the', 'ground', 'and', 'now']",1409,bsb,0.0,0.0
+269,1410,11,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['(Felt', 'it', 'slipped', 'from', 'your', 'hand', 'hit', 'the', 'ground', 'and', 'now']",1410,bsb,0.0,0.0
+270,1416,11,missing,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['(From', 'the', 'chip', 'in', 'my', 'heart', 'kept', 'taking', 'it', 'till']",1416,bsb,0.0,0.0
+271,1422,11,missing,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['(From', 'the', 'chip', 'in', 'my', 'heart', 'kept', 'taking', 'it', 'till']",1422,bsb,0.0,0.0
+272,1423,11,unstress,stress,stress,stress,unstress,stress,stress,stress,stress,unstress,stress,missing,"['Instead', 'of', 'telling', 'me', 'what', 'I', 'wanted', 'to']",1423,bsb,0.0,0.0
+273,1425,11,missing,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['<So', 'empty', 'cant', 'feel', 'no', 'more', 'As', 'Im', 'left', 'with']",1425,bsb,-0.11666666666666665,0.3333333333333333
+274,1428,11,missing,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['(From', 'the', 'chip', 'in', 'my', 'heart', 'kept', 'taking', 'it', 'till']",1428,bsb,0.0,0.0
+275,1433,11,stress,unstress,missing,stress,stress,stress,stress,stress,missing,stress,stress,missing,"['Shorty', 'dont', 'know', 'who', 'I', 'am', 'she', 'dont', 'know', 'Im']",1433,bsb,0.0,0.0
+276,1440,11,stress,unstress,missing,stress,stress,stress,stress,stress,missing,stress,stress,missing,"['Shorty', 'dont', 'know', 'who', 'I', 'am', 'she', 'dont', 'know', 'Im']",1440,bsb,0.0,0.0
+277,1444,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,missing,missing,"['Ooh', 'Ooh', 'ooh', 'oh', 'yeah', 'Oh', 'no', 'Yeah', 'Shorty', 'aint']",1444,bsb,0.0,0.0
+278,1471,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['You', 'my', 'shining', 'star', 'That', 'is', 'what', 'you', 'are', 'There']",1471,bsb,0.0,0.0
+279,1479,11,missing,stress,stress,stress,stress,stress,unstress,stress,stress,unstress,stress,missing,"['Ive', 'seen', 'it', 'all', 'a', 'thousand', 'times', 'Falling', 'down']",1479,bsb,-0.15555555555555559,0.2888888888888889
+280,1485,11,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Dont', 'need', 'to', 'swim', 'I', 'learned', 'to', 'fly', 'so', 'high', 'so']",1485,bsb,0.48000000000000004,0.72
+281,1493,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['How', 'can', 'it', 'be', 'you', 'asking', 'me', 'to', 'feel', 'things']",1493,bsb,0.0,0.0
+282,1500,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,missing,"['Is', 'this', 'the', 'feeling', 'I', 'need', 'to', 'walk', 'with', '(Tell']",1500,bsb,0.0,0.0
+283,1509,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,missing,"['Tell', 'me', 'why', 'I', 'cant', 'be', 'there', 'where', 'you', 'are', '(Cant']",1509,bsb,0.0,0.0
+284,1511,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,missing,"['Is', 'this', 'the', 'feeling', 'I', 'need', 'to', 'walk', 'with', '(Tell']",1511,bsb,0.0,0.0
+285,1512,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,missing,"['Is', 'this', 'the', 'feeling', 'I', 'need', 'to', 'walk', 'with', '(Tell']",1512,bsb,0.0,0.0
+286,1514,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,missing,"['Tell', 'me', 'why', 'I', 'cant', 'be', 'there', 'where', 'you', 'are', '(Where']",1514,bsb,0.0,0.0
+287,1530,11,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,"['Like', 'I', 'was', 'on', 'the', 'outside', 'looking', 'in', 'yeah']",1530,bsb,0.0,0.05
+288,1593,11,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,stress,stress,missing,"['And', 'it', 'telling', 'me', 'that', 'Im', 'about', 'to', 'win']",1593,bsb,0.8,0.4
+289,1601,11,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,unstress,missing,"['Here', 'we', 'are', 'in', 'the', 'arms', 'of', 'one', 'another']",1601,bsb,0.0,0.0
+290,1602,11,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,stress,stress,missing,"['And', 'it', 'telling', 'me', 'that', 'Im', 'about', 'to', 'win']",1602,bsb,0.8,0.4
+291,1611,11,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,stress,stress,missing,"['And', 'it', 'telling', 'me', 'that', 'Im', 'about', 'to', 'win']",1611,bsb,0.8,0.4
+292,1618,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['In', 'the', 'heart', 'Of', 'the', 'night', 'Where', 'it', 'dark', 'In', 'the']",1618,bsb,-0.15,0.4
+293,1620,11,stress,stress,stress,unstress,stress,unstress,stress,stress,unstress,stress,stress,missing,"['When', 'you', 'really', 'really', 'love', 'someone', 'am', 'I']",1620,bsb,0.5,0.6
+294,1622,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Oh', 'how', 'can', 'I', 'make', 'you', 'see', 'just', 'what', 'you', 'did']",1622,bsb,0.0,0.0
+295,1624,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['Yeah', 'yeah', 'yeah', 'yeah', 'There', 'are', 'people', 'who', 'say', 'what']",1624,bsb,0.0,0.0
+296,1626,11,stress,unstress,stress,stress,stress,unstress,stress,missing,stress,stress,stress,missing,"['Even', 'on', 'a', 'rainy', 'day', 'theyll', 'tell', 'you', 'the']",1626,bsb,0.0,0.0
+297,1644,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['The', 'time', 'has', 'come', 'but', 'you', 'know', 'that', 'it', 'not', 'too']",1644,bsb,0.0,0.0
+298,1663,11,stress,unstress,stress,stress,unstress,stress,stress,stress,stress,stress,unstress,missing,"['Thinking', 'there', 'only', 'so', 'much', 'we', 'can', 'really']",1663,bsb,0.13333333333333333,0.4666666666666666
+299,1667,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Let', 'me', 'tell', 'you', 'the', 'story', 'bout', 'the', 'call', 'that']",1667,bsb,0.0,0.0
+300,1672,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Let', 'me', 'tell', 'you', 'the', 'story', 'bout', 'the', 'call', 'that']",1672,bsb,0.0,0.0
+301,1684,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,missing,"['And', 'it', 'eats', 'me', 'from', 'inside', 'that', 'she', 'not', 'by']",1684,bsb,0.0,0.0
+302,1704,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Ill', 'be', 'the', 'one', 'I', 'guess', 'you', 'were', 'lost', 'when', 'I']",1704,bsb,-0.5,1.0
+303,1708,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['It', 'takes', 'a', 'lot', 'to', 'know', 'what', 'is', 'love', 'It', 'not']",1708,bsb,0.5,0.6
+304,1725,11,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,missing,"['No', 'it', 'never', 'gonna', 'be', 'the', 'way', 'it', 'was']",1725,bsb,0.0,0.0
+305,1727,11,stress,stress,stress,stress,unstress,stress,stress,stress,missing,stress,stress,missing,"['And', 'it', 'so', 'crazy', 'what', 'you', 'do', '(Hey', 'hey', 'hey']",1727,bsb,-0.6,0.9
+306,1731,11,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,missing,"['No', 'it', 'never', 'gonna', 'be', 'the', 'way', 'it', 'was']",1731,bsb,0.0,0.0
+307,1734,11,stress,stress,stress,stress,unstress,stress,stress,stress,missing,stress,stress,missing,"['And', 'it', 'so', 'crazy', 'what', 'you', 'do', '(Hey', 'hey', 'hey']",1734,bsb,-0.6,0.9
+308,1738,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['And', 'soon', 'Ill', 'be', 'lying', 'on', 'the', 'floor', 'picking', 'up']",1738,bsb,-0.5,1.0
+309,1741,11,stress,stress,stress,unstress,stress,stress,stress,missing,stress,stress,stress,missing,"['Im', 'going', 'crazy', 'what', 'you', 'do', '(Hey', 'hey', 'hey', 'hey']",1741,bsb,-0.6,0.9
+310,1744,11,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['It', 'never', 'gonna', 'be', 'the', 'way', 'it', 'was', 'oh']",1744,bsb,0.0,0.0
+311,1745,11,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['It', 'never', 'gonna', 'be', 'the', 'way', 'it', 'was', 'oh']",1745,bsb,0.0,0.0
+312,1747,11,stress,stress,stress,unstress,stress,unstress,stress,stress,missing,stress,stress,missing,"['Im', 'going', 'crazy', 'over', 'you', 'babe', '(Hey', 'hey', 'hey']",1747,bsb,-0.6,0.9
+313,1749,11,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,missing,"['Got', 'a', 'million', 'reasons', 'to', 'run', 'and', 'hide', 'I']",1749,bsb,0.0,0.0
+314,1752,11,stress,stress,stress,stress,unstress,unstress,stress,stress,unstress,stress,stress,missing,"['And', 'it', 'a', 'miracle', 'how', 'broken', 'hearts', 'can']",1752,bsb,-0.4,0.4
+315,1756,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Bout', 'a', 'novel', 'long', 'all', 'the', 'pain', 'that', 'he', 'caused']",1756,bsb,-0.05,0.4
+316,1760,11,stress,stress,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,missing,"['I', 'would', 'change', 'the', 'stories', 'ending', 'to', 'me', 'and']",1760,bsb,0.0,0.0
+317,1763,11,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,unstress,stress,missing,"['Oh', 'so', 'let', 'not', 'forget', 'why', 'it', 'understood']",1763,bsb,0.0,0.0
+318,1771,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['I', 'know', 'that', 'I', 'I', 'cant', 'believe', 'Just', 'what', 'the']",1771,bsb,0.0,0.0
+319,1777,11,stress,stress,unstress,unstress,unstress,stress,stress,stress,stress,stress,stress,missing,"['When', 'nobody', 'around', 'you', 'say', 'that', 'you', 'love']",1777,bsb,0.5,0.6
+320,1784,11,stress,stress,unstress,unstress,unstress,stress,stress,stress,stress,stress,stress,missing,"['When', 'nobody', 'around', 'you', 'say', 'that', 'you', 'love']",1784,bsb,0.5,0.6
+321,1785,11,stress,stress,unstress,unstress,unstress,stress,stress,stress,stress,stress,stress,missing,"['When', 'nobody', 'around', 'you', 'say', 'that', 'you', 'love']",1785,bsb,0.5,0.6
+322,1788,11,stress,stress,unstress,unstress,unstress,stress,stress,stress,stress,stress,stress,missing,"['When', 'nobody', 'around', 'you', 'say', 'that', 'you', 'love']",1788,bsb,0.5,0.6
+323,1796,11,stress,stress,stress,stress,stress,stress,stress,missing,stress,missing,stress,missing,"['And', 'now', 'I', 'know', 'what', 'it', 'is', '(yes', 'I', 'know)', 'now']",1796,bsb,0.0,0.0
+324,1798,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['The', 'trouble', 'is', 'there', 'a', 'part', 'of', 'me', 'that', 'still']",1798,bsb,-0.2,0.2
+325,1800,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['The', 'trouble', 'is', 'there', 'still', 'a', 'part', 'of', 'me', 'that']",1800,bsb,-0.2,0.2
+326,1803,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['The', 'trouble', 'is', 'I', 'cant', 'get', 'her', 'out', 'of', 'my']",1803,bsb,-0.2,0.2
+327,1805,11,stress,unstress,stress,stress,stress,stress,stress,unstress,stress,stress,missing,missing,"['Trouble', 'Is', 'How', 'come', 'you', 'never', 'know', 'what', 'youve']",1805,bsb,-0.2,0.2
+328,1806,11,stress,stress,stress,unstress,stress,unstress,stress,unstress,stress,unstress,stress,missing,"['Im', 'here', 'to', 'convince', 'myself', 'tomorrow', 'will']",1806,bsb,0.0,0.0
+329,1807,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['The', 'trouble', 'is', 'I', 'cant', 'get', 'her', 'out', 'of', 'my']",1807,bsb,-0.2,0.2
+330,1813,11,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['The', 'trouble', 'is', 'there', 'a', 'part', 'of', 'me', 'that', 'still']",1813,bsb,-0.2,0.2
+331,1815,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Im', 'all', 'right', 'Im', 'okay', 'Ill', 'be', 'fine', 'give', 'it']",1815,bsb,0.17559523809523808,0.6339285714285714
+332,1816,11,stress,unstress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Trouble', 'is', 'I', 'cant', 'get', 'her', 'out', 'of', 'my', 'mind']",1816,bsb,-0.2,0.2
+333,1819,11,stress,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,missing,"['Let', 'me', 'tell', 'you', 'about', 'this', 'girl', 'I', 'know', 'First']",1819,bsb,0.25,0.3333333333333333
+334,1834,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,missing,"['Uh', 'uh', 'I', 'know', 'that', 'you', 'hurting', 'now', 'Seems', 'like']",1834,bsb,0.0,0.0
+335,1869,11,stress,stress,stress,stress,stress,stress,stress,stress,missing,missing,stress,missing,"['How', 'will', 'I', 'know', 'your', 'voice', 'when', 'you', 'havent', 'said']",1869,bsb,0.0,0.0
+336,1888,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['How', 'come', 'I', 'was', 'the', 'last', 'to', 'know', 'Took', 'the', 'stage']",1888,bsb,0.0,0.06666666666666667
+337,1890,11,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,missing,"['If', 'you', 'really', 'wanna', 'see', 'what', 'we', 'can', 'do']",1890,bsb,0.2,0.2
+338,1891,11,missing,missing,stress,stress,stress,stress,stress,stress,stress,stress,stress,missing,"['Creepin', 'up', 'and', 'down', 'now', 'it', 'time', 'for', 'me', 'to']",1891,bsb,-0.15555555555555559,0.2888888888888889
+339,1898,11,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,missing,missing,"['What', 'you', 'want', 'is', 'what', 'you', 'gonna', 'get', 'Backstreets']",1898,bsb,0.0,0.0
+340,1899,11,stress,stress,stress,unstress,stress,unstress,stress,stress,stress,stress,stress,missing,"['If', 'you', 'really', 'wanna', 'see', 'what', 'we', 'can', 'do']",1899,bsb,0.2,0.2
+341,1901,11,stress,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Tough', 'like', 'granite', 'to', 'keep', 'the', 'crowd', 'hype', 'get', 'up']",1901,bsb,-0.3888888888888889,0.8333333333333334
+342,1903,11,missing,stress,stress,unstress,stress,stress,stress,stress,stress,stress,stress,missing,"['Weve', 'been', 'waiting', 'so', 'long', 'just', 'cant', 'hold', 'it', 'back']",1903,bsb,-0.025,0.2
+343,1912,11,stress,stress,stress,stress,stress,stress,stress,stress,stress,unstress,stress,missing,"['Back', 'here', 'it', 'her', 'and', 'me', 'and', 'we', 'having', 'our']",1912,bsb,0.0,0.0
+344,1914,11,stress,unstress,stress,stress,stress,missing,stress,stress,stress,stress,stress,missing,"['Never', 'give', 'up', 'and', 'dont', 'let', 'it', 'wear', 'out', 'your']",1914,bsb,0.0,0.0
+345,1918,11,stress,unstress,stress,stress,stress,missing,stress,stress,stress,stress,stress,missing,"['Never', 'give', 'up', 'and', 'dont', 'let', 'it', 'wear', 'out', 'your']",1918,bsb,0.0,0.0
+346,1919,11,stress,unstress,stress,stress,stress,missing,stress,stress,stress,stress,stress,missing,"['Never', 'give', 'up', 'and', 'dont', 'let', 'it', 'wear', 'out', 'your']",1919,bsb,0.0,0.0
+347,1939,11,stress,stress,stress,stress,stress,unstress,stress,stress,stress,unstress,stress,missing,"['As', 'God', 'is', 'my', 'witness', 'I', 'will', 'carry', 'this']",1939,bsb,0.0,0.0
+348,1944,11,stress,stress,stress,stress,stress,stress,unstress,stress,stress,stress,stress,missing,"['Yeah', 'yeah', 'yeah', 'Oh', 'I', 'open', 'my', 'eyes', 'I', 'see']",1944,bsb,0.0,0.5
